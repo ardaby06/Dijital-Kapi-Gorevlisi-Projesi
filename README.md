@@ -15,15 +15,21 @@ windows iso dosyası : https://www.microsoft.com/tr-tr/software-download/windows
 
 
 sudo apt update
+
 sudo apt install netplan.io snort tcpdump -y
 
 
 sudo systemctl stop NetworkManager
+
 sudo systemctl disable NetworkManager
+
 sudo systemctl enable systemd-networkd
+
 sudo systemctl start systemd-networkd
 
+
 sudo nano /etc/netplan/01-netcfg.yaml
+
 
 network:
   version: 2
