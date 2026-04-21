@@ -1,5 +1,11 @@
 # Dijital-Kapi-Gorevlisi-Projesi
 
+<img width="1087" height="620" alt="image" src="https://github.com/user-attachments/assets/45a3e71e-c01b-4600-8b75-baa6f4f28f37" />
+<img width="1078" height="621" alt="image" src="https://github.com/user-attachments/assets/36d9b655-5f95-4eda-9639-84495102a6c8" />
+<img width="1074" height="601" alt="image" src="https://github.com/user-attachments/assets/08239657-6c6d-4370-ae9e-53735fde2fa7" />
+
+
+
 "Arkadaşlar, 11. hafta kurulumlarını tamamladım. Kali makinemizi bir Gateway (Ağ Geçidi) yaptık ve tcpdump ile trafiği dinliyoruz. Sizin kendi bilgisayarlarınızda 12. haftaya geçmeden önce sırasıyla şu komutları çalıştırıp altyapıyı kurmanız gerekiyor..."
 
 
