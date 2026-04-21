@@ -31,16 +31,25 @@ sudo systemctl start systemd-networkd
 sudo nano /etc/netplan/01-netcfg.yaml
 
 
+--
 network:
+
   version: 2
+  
   renderer: networkd
+  
   ethernets:
+  
     eth0:
+    
       dhcp4: true
+      
     eth1:
+    
       addresses: [192.168.10.1/24]
+      
 
-
+--
 sudo netplan apply
 
 
