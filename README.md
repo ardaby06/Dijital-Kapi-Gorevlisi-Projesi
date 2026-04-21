@@ -32,15 +32,7 @@ sudo nano /etc/netplan/01-netcfg.yaml
 
 
 --
-network:
-  version: 2
-  renderer: networkd
-  ethernets:
-    eth0:
-      dhcp4: true 
-    eth1:
-      addresses: [192.168.10.1/24]
-      
+<img width="257" height="247" alt="image" src="https://github.com/user-attachments/assets/01129d79-7da6-4439-a56d-cfdf04f2acfc" />
 
 --
 sudo netplan apply
