@@ -73,4 +73,8 @@ ping 192.168.10.1  -> Amacı: Windows makinesinin, bizim kurduğumuz Kapı Göre
 
 ping 8.8.8.8  -> Amacı: Windows'un Kali üzerinden geçerek dış dünyadaki (internetteki) Google DNS sunucularına ulaşıp ulaşamadığını test ettik. Bu komut çalıştığında Kali'deki tcpdump ekranına loglar akmaya başladı.
 
+<img width="503" height="658" alt="image" src="https://github.com/user-attachments/assets/20500b59-53a3-4469-b332-80e0ba78079a" />
+
+bu ayarı yapmamız lazım
+
 
