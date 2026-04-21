@@ -58,15 +58,8 @@ ip a  ->  Amacı: Sistemdeki ağ kartlarının (eth0, eth1 vb.) isimlerini öğr
 
 sudo nano /etc/netplan/01-netcfg.yaml   -> Amacı: Kali makinemize "İç Ağ" (Internal Network) üzerinden kurban makineyle konuşabilmesi için sabit bir IP adresi (192.168.10.1) tanımlamak amacıyla bu dosyayı açıp düzenledik.
 
-network:
-  version: 2
-  renderer: networkd
-  ethernets:
-    eth0:
-      dhcp4: true
-    eth1:
-      addresses:
-        - 192.168.10.1/24
+<img width="257" height="247" alt="image" src="https://github.com/user-attachments/assets/d0902498-3b1c-4010-bbc7-6d046dc8796e" />
+
 
 sudo netplan apply  -> Amacı: Nano ile dosyaya yazdığımız o yeni IP ayarlarının bilgisayar tarafından anında işleme alınmasını (aktif olmasını) sağlamak için çalıştırdık.
 
